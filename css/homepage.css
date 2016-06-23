@@ -1,0 +1,260 @@
+body{
+	font-family: "微軟正黑體", "Microsoft JhengHei", sans-serif;
+	text-align: center;
+}
+
+header{
+	position: fixed;
+	background-color: rgba(135, 61, 61, 0.7);
+	box-sizing: border-box;
+	width: 100%;
+	height: 80px;
+}
+
+
+header h2{
+	box-sizing: border-box;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.banner{
+	width: 100%;
+	height: 600px;
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.banner h3 {
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav a{
+	color: white;
+}
+
+.container{
+	width: 100%;
+	justify-content: center;
+}
+
+.container h3, .container p{
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.row{
+	margin: 30px 15px;
+}
+
+.col-md-4{
+	padding: 10% 10%;
+}
+
+.col-md-4:hover{
+	-webkit-animation-name: example; 
+    -webkit-animation-duration: 1s;
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/*
+.groups{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+*/
+
+/*img{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-size: cover;
+	background-position: center top;
+}*/
+
+#group1{
+	background-color: rgba(245, 78, 78, 0.7);
+}
+
+#group1:hover{	
+    background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../img/amis/home01.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#group2{
+	background-color:rgba(55, 174, 143, 0.7);
+}
+
+#group2:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../img/atayal/home02.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#group3{
+	background-color: rgba(241, 169, 0, 0.7);
+}
+
+#group3:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../img/bunun/home03.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#group4{
+	background-color: rgba(130, 74, 50, 0.7);
+}
+
+#group4:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../img/kevalan/home04.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#group5{
+	background-color: rgba(129, 199, 49, 0.7);
+}
+
+#group5:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../img/paiwan/home05.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#group6{
+	background-color: rgba(8, 36, 151, 0.7);
+}
+
+#group6:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../img/puyuma/home06.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#group7{
+	background-color: rgba(110, 37, 90, 0.7);
+}
+
+#group7:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../img/rukai/home07.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#group8{
+	background-color: rgba(230, 48, 48, 0.7);
+}
+
+#group8:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../img/saisiyat/home08.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#group9{
+	background-color: rgba(255, 204, 0, 0.7);
+}
+
+#group9:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../img/sakizaya/home09.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#group10{
+	background-color: rgba(215, 82, 82, 0.7);
+}
+
+#group10:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../img/seediq/home10.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#group11{
+	background-color: rgba(74, 108, 217, 0.7);
+}
+
+#group11:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../img/tao/home11.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#group12{
+	background-color: rgba(255, 135, 167, 0.7);
+}
+
+#group12:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../img/taroko/home12.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#group13{
+	background-color: rgba(107, 64, 124, 0.7);
+}
+
+#group13:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../img/thao/home13.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#group14{
+	background-color: rgba(222, 105, 0, 0.7);
+}
+
+#group14:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../img/tsou/home14.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#group15{
+	background-color: rgba(38, 108, 0, 0.7);
+}
+
+#group15 h3{
+	color: rgba(255, 255, 255, 0);
+}
+
+
+
+
+
+

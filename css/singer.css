@@ -1,0 +1,122 @@
+body{
+	font-family: "微軟正黑體", "Microsoft JhengHei", sans-serif;
+	text-align: center;
+}
+
+header{
+	position: fixed;
+	background-color: rgba(135, 61, 61, 0.7);
+	box-sizing: border-box;
+	width: 100%;
+	height: 80px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav a{
+	color: white;
+}
+
+.container{
+	width: 100%;
+	justify-content: center;
+}
+
+.container h3, .container p{
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.row{
+	margin: 80px 15px;
+}
+
+.col-md-4{
+	padding: 10% 10%;
+}
+
+.col-md-4:hover{
+	-webkit-animation-name: example; 
+    -webkit-animation-duration: 1s;
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#singer1{
+	background-color: rgba(215, 82, 82, 0.7);
+}
+
+#singer1:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../singer/seediqSinger.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#singer2{
+	background-color: rgba(74, 108, 217, 0.7);
+}
+
+#singer2:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../singer/taoSinger.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#singer3{
+	background-color: rgba(245, 78, 78, 0.7);
+}
+
+#singer3:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../singer/amisSinger.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#singer4{
+	background-color: rgba(55, 174, 143, 0.7);
+}
+
+#singer4:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../singer/atayalSinger.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#singer5{
+	background-color: rgba(129, 199, 49, 0.7);
+}
+
+#singer5:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../singer/paiwanSinger.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+#singer6{
+	background-color: rgba(78, 36, 151, 0.7);
+}
+
+#singer6:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('../singer/puyumaSinger.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
